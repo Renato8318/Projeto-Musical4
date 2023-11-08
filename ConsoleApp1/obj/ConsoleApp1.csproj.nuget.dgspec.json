@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\paiva\\OneDrive\\Documentos\\Projeto Musical\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj": {}
+    "C:\\Users\\paiva\\OneDrive\\Documentos\\Projeto App\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\paiva\\OneDrive\\Documentos\\Projeto Musical\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj": {
+    "C:\\Users\\paiva\\OneDrive\\Documentos\\Projeto App\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\paiva\\OneDrive\\Documentos\\Projeto Musical\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectUniqueName": "C:\\Users\\paiva\\OneDrive\\Documentos\\Projeto App\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
         "projectName": "ConsoleApp1",
-        "projectPath": "C:\\Users\\paiva\\OneDrive\\Documentos\\Projeto Musical\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectPath": "C:\\Users\\paiva\\OneDrive\\Documentos\\Projeto App\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
         "packagesPath": "C:\\Users\\paiva\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\paiva\\OneDrive\\Documentos\\Projeto Musical\\ConsoleApp1\\ConsoleApp1\\obj\\",
+        "outputPath": "C:\\Users\\paiva\\OneDrive\\Documentos\\Projeto App\\ConsoleApp1\\ConsoleApp1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\paiva\\AppData\\Roaming\\NuGet\\NuGet.Config",
