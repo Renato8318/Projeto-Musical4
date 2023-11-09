@@ -1,4 +1,5 @@
 ﻿using ConsoleApp1.Modelos;
+using System.Runtime.CompilerServices;
 
 namespace ConsoleApp1.Filtros;
 
@@ -22,4 +23,15 @@ internal class LinkFilter
             Console.WriteLine($"- {artista}");
         }
     }
+
+    public static void FiltrarMusicasDeUmArtista(List<Musica> musicas, string nomeDoArtista)
+    {
+        var musicasDoArtista = musicas.Where(musica => musica.Artista!.Equals(nomeDoArtista)).ToList();
+        Console.WriteLine(nomeDoArtista);
+        foreach (var musica in musicasDoArtista)
+        {
+            Console.WriteLine($"- {musica.Nome}");
+        }
+    }
+
 }

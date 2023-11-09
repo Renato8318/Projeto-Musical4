@@ -11,7 +11,8 @@ using (HttpClient client = new HttpClient())
         var musicas = JsonSerializer.Deserialize<List<Musica>>(resposta)!;
         //LinkFilter.FiltrarTodosOsGenerosMusicais(musicas);
         //LinkOrder.ExibirListaDeArtistasOrdenados(musicas);
-        LinkFilter.FiltrarArtistaPorGeneroMusical(musicas, "pop");
+        //LinkFilter.FiltrarArtistaPorGeneroMusical(musicas, "pop");
+        LinkFilter.FiltrarMusicasDeUmArtista(musicas, "Chris Brown");
     }
     catch (Exception ex)
     {
