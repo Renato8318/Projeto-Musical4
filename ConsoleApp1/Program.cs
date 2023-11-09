@@ -1,5 +1,6 @@
 ﻿using ConsoleApp1.Modelos;
 using System.Text.Json;
+using ConsoleApp1.Filtros;
 
 using (HttpClient client = new HttpClient())
 {
@@ -8,7 +9,7 @@ using (HttpClient client = new HttpClient())
         string resposta = await client.GetStringAsync("https://guilhermeonrails.github.io/api-csharp-songs/songs.json");
         Console.WriteLine(resposta);
         var musicas = JsonSerializer.Deserialize<List<Musica>>(resposta)!;
-        musicas[1998].ExibirDetalhesDaMusica();
+        LinkFilter.FiltrarTodosOsGenerosMusicais(musicas);
     }
     catch (Exception ex)
     {
